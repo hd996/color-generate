@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es2017", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationDir": "typings",
+    "outDir": "bin"
+  },
+  "include": ["src/**/*.ts"],
+}

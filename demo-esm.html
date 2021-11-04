@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>color-generate</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .examples {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: bolder;
+      color: #5c6b77;
+      margin-bottom: 20px;
+    }
+
+    .wrapper {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .wrapper .primary-color {
+      color: #5c6b77;
+      font-size: 22px;
+      font-weight: 500;
+      margin-right: 20px;
+    }
+
+    .colors {
+      border-radius: 8px;
+    }
+
+    .colors .colors-item {
+      width: 400px;
+      height: 44px;
+      text-align: center;
+      line-height: 44px;
+      padding: 0 20px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .info {
+      display: block;
+      color: #5c6b77;
+      font-size: 12px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="examples">
+    <div class="title">ESM MODULE</div>
+
+    <div class="wrapper">
+      <div class="primary-color">主色: #099dfd</div>
+    </div>
+
+    <div class="colors" id="colors"></div>
+
+    <a class="info" target="_blank" href="https://colors-docs.sh2.agoralab.co/#/">点击了解更多</a>
+  </div>
+</body>
+<script type="module">
+  import { generate } from 'https://web-cdn.agora.io/color-generate/color-generate@1.0.0.es.js'
+
+  const colors = generate('#099dfd')
+  const colorsDom = document.getElementById('colors')
+
+  let colorsDomItems = ''
+
+  colors.map(color => {
+    colorsDomItems += `<div class='colors-item' style='background-color: ${color}'>${color}</div>`
+  })
+
+  colorsDom.innerHTML = colorsDomItems
+</script>
+</html>

@@ -1,0 +1,80 @@
+{
+  "name": "color-generate",
+  "version": "1.0.0",
+  "description": "An awesome theme color generation scheme.",
+  "license": "MIT",
+  "homepage": "https://colors-docs.sh2.agoralab.co",
+  "repository": "https://github.com/Johnson-hd/color-generate",
+  "bugs": "https://github.com/Johnson-hd/color-generate/issues",
+  "keywords": [
+    "color",
+    "colors",
+    "generate",
+    "hot"
+  ],
+  "authors": [
+    "houdong"
+  ],
+  "main": "dist/color-generate.umd.js",
+  "module": "dist/color-generate.es.js",
+  "browser": "dist/color-generate.umd.js",
+  "typings": "typings/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/color-generate.es.js",
+      "require": "./dist/color-generate.umd.js"
+    }
+  },
+  "bin": {
+    "color-generate": "bin/color-generate.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "typings",
+    "src",
+    "examples"
+  ],
+  "scripts": {
+    "start:example": "vite",
+    "build": "tsc && vite build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js}": [
+      "eslint --cache --fix"
+    ],
+    "*.css": [
+      "prettier --parser=css --write"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@types/tinycolor2": "^1.4.3",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "@vitejs/plugin-vue": "^1.9.4",
+    "element-plus": "^1.1.0-beta.24",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.4.1",
+    "sass": "^1.43.4",
+    "typescript": "^4.4.4",
+    "unplugin-vue-components": "^0.16.0",
+    "vite": "^2.6.12",
+    "vue": "^3.2.16",
+    "vue-tsc": "^0.28.9"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "tinycolor2": "^1.4.2"
+  }
+}
