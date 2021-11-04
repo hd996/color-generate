@@ -8,3 +8,8 @@
 ## 1.0.2
 *2021-11-04*
 - 修复 全局安装时 `bin` 报错的问题
+
+## 1.0.3
+*2021-11-04*
+- 浏览器环境全局变量变更为 `ColorGenerate`
+- [官网](https://color-generate-docs.sh2.agoralab.co/#/)地址变更
