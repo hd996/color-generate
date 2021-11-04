@@ -4,66 +4,47 @@
 ## 简介
 参考 [`Ant Design`](https://ant.design/docs/spec/colors-cn) 色彩规范，输入一个主色，可以根据主色生成一系列的颜色阶梯，帮助前端和设计师更好地选色。
 
-## 安装
-- `CDN` : `version` 字段替换为 `1.0.1` | `1.0.2` 等，版本信息可以见[官网](https://colors-docs.sh2.agoralab.co/#/)
-  - `https://web-cdn.agora.io/color-generate/color-generate@version.es.js`
-  - `https://web-cdn.agora.io/color-generate/color-generate@version.umd.js`
-
-- `NPM` : 
-  - `npm install color-generate --save -dev`
-  - `yarn add color-generate --dev`
-## 使用
-- `BIN`
+## CLI
 ```javascript
-sudo npm install color-generate -g
+$ sudo npm install color-generate -g
 
 // 查看帮助
-color-generate -h
+$ color-generate -h
+
 // 查看版本
-color-generate -v
+$ color-generate -v
+
 // 根据主色生成色阶
-// ['#e6f9ff', '#ade9ff', '#85daff', '#5cc9ff', '#33b4ff', '#099dfd', '#0079d6', '#005eb0', '#00458a', '#002e63']
-color-generate generate 099dfd
-```
-- `ESM`
-```javascript
-// 可参考demo-esm.html
-<script type="module">
-  // import { generate } from 'https://web-cdn.agora.io/color-generate/color-generate.es.js';
-  import { generate } from 'color-generate';
-
-  // ['#e6f9ff', '#ade9ff', '#85daff', '#5cc9ff', '#33b4ff', '#099dfd', '#0079d6', '#005eb0', '#00458a', '#002e63']
-  console.log("colors", generate('#099dfd'));
-</script>
+$ color-generate generate 099dfd 
 ```
 
-- `UMD - Browser`
+## CDN
+- 最新
+  - `https://web-cdn.agora.io/color-generate/color-generate.umd.js`
+  - `https://web-cdn.agora.io/color-generate/color-generate.es.js`
+
+- 版本：`version` 替换为 `1.0.1` | `1.0.2` 等，可参考 [CHANGELOG](https://github.com/Johnson-hd/color-generate/blob/master/CHANGELOG.md)
+  - `https://web-cdn.agora.io/color-generate/color-generate@{version}.umd.js`
+  - `https://web-cdn.agora.io/color-generate/color-generate@{version}.es.js`
+
+## NPM | YARN
 ```javascript
-// 可参考demo-umd.html
+$ yarn add color-generate
+
+$ import { generate } from 'color-generate'
+```
+
+## 浏览器
+```javascript
 <script src="https://web-cdn.agora.io/color-generate/color-generate.umd.js"></script>
+
 <script>
-  // ['#e6f9ff', '#ade9ff', '#85daff', '#5cc9ff', '#33b4ff', '#099dfd', '#0079d6', '#005eb0', '#00458a', '#002e63']
-  console.log("colors", ColorsGenerate('#099dfd'));
+  // 在全局挂载了 `ColorGenerate` 变量
+  console.log("colors", ColorGenerate('#099dfd'));
 </script>
 ```
-
-- `UMD - Commonjs`
-```javascript
-const { generate }  = require('color-generate');
-
-// ['#e6f9ff', '#ade9ff', '#85daff', '#5cc9ff', '#33b4ff', '#099dfd', '#0079d6', '#005eb0', '#00458a', '#002e63']
-console.log("colors", generate('#099dfd'));
-```
-
-## 本地调试
-```bash
-yarn install
-yarn start:example
-```
-
-打开 `http://localhost:3000` 查看
 
 ## 相关链接
 - [更新日志](https://github.com/Johnson-hd/color-generate/blob/master/CHANGELOG.md)
-- [官网](https://colors-docs.sh2.agoralab.co/#/)
+- [官网](https://color-generate-docs.sh2.agoralab.co/#/)
 - [Ant Design](https://ant.design/docs/spec/colors-cn)

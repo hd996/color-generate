@@ -3,7 +3,7 @@ interface PackageJson {
 }
 
 declare interface Window {
-  ColorsGenerate: (primaryColor: string) => string[];
+  ColorGenerate: (primaryColor: string) => string[];
 }
 
 declare module '*.json' {

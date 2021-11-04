@@ -29,7 +29,7 @@
       </template>
     </div>
 
-    <a class="info" target="_blank" href="https://colors-docs.sh2.agoralab.co/#/">点击了解更多</a>
+    <a class="info" target="_blank" href="https://color-generate-docs.sh2.agoralab.co/#/">点击了解更多</a>
   </div>
 </template>
 
