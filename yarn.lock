@@ -628,6 +628,14 @@ color-convert@^2.0.1:
   dependencies:
     color-name "~1.1.4"
 
+color-generate@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/color-generate/-/color-generate-1.0.1.tgz#53c6629a63290d2de9e4e5f7f39c1afe6f0512a7"
+  integrity sha512-cvzBjUMlfPvgWL09N8HeTYOC3enOqD8KZB1mwTavnuq66RZX6a2AA8E56g7ElH/6IYkDn3aLv4Wz1hYLU0vJRg==
+  dependencies:
+    commander "^8.3.0"
+    tinycolor2 "^1.4.2"
+
 color-name@1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"

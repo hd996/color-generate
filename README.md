@@ -5,7 +5,7 @@
 参考 [`Ant Design`](https://ant.design/docs/spec/colors-cn) 色彩规范，输入一个主色，可以根据主色生成一系列的颜色阶梯，帮助前端和设计师更好地选色。
 
 ## 安装
-- `CDN` : `version` 字段替换为 `1.0.0` | `1.0.1` 等，版本信息可以见[官网](https://colors-docs.sh2.agoralab.co/#/)
+- `CDN` : `version` 字段替换为 `1.0.1` | `1.0.2` 等，版本信息可以见[官网](https://colors-docs.sh2.agoralab.co/#/)
   - `https://web-cdn.agora.io/color-generate/color-generate@version.es.js`
   - `https://web-cdn.agora.io/color-generate/color-generate@version.umd.js`
 
@@ -17,7 +17,7 @@
 ```javascript
 // 可参考demo-esm.html
 <script type="module">
-  // import { generate } from 'https://web-cdn.agora.io/color-generate/color-generate@1.0.0.es.js';
+  // import { generate } from 'https://web-cdn.agora.io/color-generate/color-generate.es.js';
   import { generate } from 'color-generate';
 
   // ['#e6f9ff', '#ade9ff', '#85daff', '#5cc9ff', '#33b4ff', '#099dfd', '#0079d6', '#005eb0', '#00458a', '#002e63']
@@ -28,7 +28,7 @@
 - `UMD - Browser`
 ```javascript
 // 可参考demo-umd.html
-<script src="https://web-cdn.agora.io/color-generate/color-generate@1.0.0.umd.js"></script>
+<script src="https://web-cdn.agora.io/color-generate/color-generate.umd.js"></script>
 <script>
   // ['#e6f9ff', '#ade9ff', '#85daff', '#5cc9ff', '#33b4ff', '#099dfd', '#0079d6', '#005eb0', '#00458a', '#002e63']
   console.log("colors", ColorsGenerate('#099dfd'));

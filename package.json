@@ -74,6 +74,7 @@
     "vue-tsc": "^0.28.9"
   },
   "dependencies": {
+    "color-generate": "^1.0.1",
     "commander": "^8.3.0",
     "tinycolor2": "^1.4.2"
   }

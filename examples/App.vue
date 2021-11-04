@@ -1,8 +1,8 @@
 <script setup lang="ts">
   import { ref } from 'vue';
   import { onMounted } from '@vue/runtime-core';
-  // import { generate } from 'color-generate';
-  import { generate } from '../src';
+  import { generate } from 'color-generate';
+  // import { generate } from '../src';
 
   const primaryColor = ref<string>('#099dfd');
   let colors = ref<string[]>([]);
