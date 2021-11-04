@@ -13,6 +13,18 @@
   - `npm install color-generate --save -dev`
   - `yarn add color-generate --dev`
 ## 使用
+- `BIN`
+```javascript
+sudo npm install color-generate -g
+
+// 查看帮助
+color-generate -h
+// 查看版本
+color-generate -v
+// 根据主色生成色阶
+// ['#e6f9ff', '#ade9ff', '#85daff', '#5cc9ff', '#33b4ff', '#099dfd', '#0079d6', '#005eb0', '#00458a', '#002e63']
+color-generate generate 099dfd
+```
 - `ESM`
 ```javascript
 // 可参考demo-esm.html
