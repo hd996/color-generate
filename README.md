@@ -28,13 +28,12 @@ $ color-generate generate 099dfd
 ```
 
 ### CDN
-- **最新**
-  - `https://web-cdn.agora.io/color-generate/color-generate.umd.js`
-  - `https://web-cdn.agora.io/color-generate/color-generate.es.js`
-
-- **版本**：`version` 替换为 `1.0.1` | `1.0.2` 等，可参考 [CHANGELOG](https://github.com/Johnson-hd/color-generate/blob/master/CHANGELOG.md)
-  - `https://web-cdn.agora.io/color-generate/color-generate@{version}.umd.js`
-  - `https://web-cdn.agora.io/color-generate/color-generate@{version}.es.js`
+- **`unpkg`**
+  - `https://unpkg.com/color-generate/dist/color-generate.umd.js`
+  - `https://unpkg.com/color-generate/dist/color-generate.es.js`
+- **`jsdelivr`**
+  - `https://cdn.jsdelivr.net/npm/color-generate/dist/color-generate.umd.js`
+  - `https://cdn.jsdelivr.net/npm/color-generate/dist/color-generate.es.js`
 
 ### NPM | YARN
 ```javascript
@@ -45,7 +44,7 @@ $ import { generate } from 'color-generate'
 
 ### 浏览器
 ```javascript
-<script src="https://web-cdn.agora.io/color-generate/color-generate.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/color-generate/dist/color-generate.umd.js"></script>
 
 <script>
   // 在全局挂载了 `ColorGenerate` 变量

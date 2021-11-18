@@ -13,3 +13,7 @@
 *2021-11-04*
 - 浏览器环境全局变量变更为 `ColorGenerate`
 - [官网](https://color-generate-docs.sh2.agoralab.co/#/)地址变更
+
+## 1.0.4
+*2021-11-18*
+- 优化
