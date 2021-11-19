@@ -28,3 +28,8 @@
 ## 1.0.7
 *2021-11-19*
 - fix some bug
+
+## 1.0.8
+*2021-11-19*
+- add cli demo
+- fix cli bugs
