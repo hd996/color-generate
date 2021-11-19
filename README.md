@@ -9,7 +9,7 @@
 Referring to [`Ant Design`](https://ant.design/docs/spec/colors-cn), enter a primary color to generate color steps.
 
 ## Documentation
-Docs are available at [here](`https://color-generate-docs.sh2.agoralab.co/#/`)
+Docs are available at [`here`](`https://color-generate-docs.sh2.agoralab.co`)
 
 ## Demo
 ![Demo](https://web-cdn.agora.io/color-generate/static/show.gif)
@@ -23,6 +23,7 @@ $ sudo npm install color-generate -g
 ### YARN | NPM
 ```javascript
 $ yarn add color-generate
+
 $ npm install color-generate
 ```
 
@@ -30,6 +31,7 @@ $ npm install color-generate
 - **`unpkg`**
   - `https://unpkg.com/color-generate/dist/color-generate.umd.js`
   - `https://unpkg.com/color-generate/dist/color-generate.es.js`
+
 - **`jsdelivr`**
   - `https://cdn.jsdelivr.net/npm/color-generate/dist/color-generate.umd.js`
   - `https://cdn.jsdelivr.net/npm/color-generate/dist/color-generate.es.js`
@@ -39,10 +41,12 @@ $ npm install color-generate
 
 ### CLI
 ```bash
+# help
 $ color-generate -h
-$ color-generate -v
+
 # just print color
 $ color-generate g -c 099dfd
+
 # generate file Sass/Less
 $ color-generate g -c 099dfd -f
 ```

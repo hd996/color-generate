@@ -33,7 +33,8 @@
     "bin",
     "typings",
     "src",
-    "examples"
+    "examples",
+    "templates"
   ],
   "scripts": {
     "start:example": "vite",
