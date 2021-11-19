@@ -9,7 +9,7 @@
 Referring to [`Ant Design`](https://ant.design/docs/spec/colors-cn), enter a primary color to generate color steps.
 
 ## Documentation
-Docs are available at [`here`](`https://color-generate-docs.sh2.agoralab.co`)
+Docs are available at [`here`](https://color-generate-docs.sh2.agoralab.co)
 
 ## Demo
 ![Demo](https://web-cdn.agora.io/color-generate/static/show.gif)

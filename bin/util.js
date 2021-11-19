@@ -7,7 +7,7 @@ exports.generateFile = void 0;
 var fs_1 = __importDefault(require("fs"));
 var generateFile = function (colors, template) {
     try {
-        var data_1 = fs_1.default.readFileSync("templates/" + template + ".tpl", 'utf8');
+        var data_1 = fs_1.default.readFileSync(process.cwd() + "/templates/" + template + ".tpl", 'utf8');
         colors.map(function (color, index) {
             data_1 = data_1.replace(new RegExp("\\$\\{colorPrimary" + index + "\\}", 'mg'), color);
         });
