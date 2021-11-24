@@ -19,14 +19,20 @@ Docs are available at [`here`](https://color-generate-docs.sh2.agoralab.co)
 ## Installation
 ### CLI
 ```javascript
+# npm
 $ sudo npm install color-generate -g
+
+# pnpm
+$ pnpm add color-generate -g
 ```
 
-### YARN | NPM
+### YARN | NPM | PNPM
 ```javascript
 $ yarn add color-generate
 
 $ npm install color-generate
+
+$ pnpm add color-generate
 ```
 
 ### CDN
