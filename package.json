@@ -1,11 +1,11 @@
 {
-  "name": "color-generate",
+  "name": "color-generator",
   "version": "1.0.8",
   "description": "An awesome theme color generation scheme.",
   "license": "MIT",
   "homepage": "https://colors-docs.sh2.agoralab.co",
-  "repository": "https://github.com/Johnson-hd/color-generate",
-  "bugs": "https://github.com/Johnson-hd/color-generate/issues",
+  "repository": "https://github.com/Johnson-hd/color-generator",
+  "bugs": "https://github.com/Johnson-hd/color-generator/issues",
   "keywords": [
     "color",
     "colors",
@@ -15,18 +15,18 @@
   "authors": [
     "houdong"
   ],
-  "main": "dist/color-generate.umd.js",
-  "module": "dist/color-generate.es.js",
-  "browser": "dist/color-generate.umd.js",
+  "main": "dist/color-generator.umd.js",
+  "module": "dist/color-generator.es.js",
+  "browser": "dist/color-generator.umd.js",
   "typings": "typings/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/color-generate.es.js",
-      "require": "./dist/color-generate.umd.js"
+      "import": "./dist/color-generator.es.js",
+      "require": "./dist/color-generator.umd.js"
     }
   },
   "bin": {
-    "color-generate": "bin/color-generate.js"
+    "color-generator": "bin/color-generator.js"
   },
   "files": [
     "dist",
@@ -79,7 +79,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "color-generate": "^1.0.1",
+    "color-generator": "^1.0.9",
     "commander": "^8.3.0",
     "inquirer": "^8.2.0",
     "tinycolor2": "^1.4.2"

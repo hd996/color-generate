@@ -16,7 +16,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'colorsGenerate',
-      fileName: (format) => `color-generate.${format}.js`,
+      fileName: (format) => `color-generator.${format}.js`,
     },
     rollupOptions: {
       external: ['vue', 'element-plus'],

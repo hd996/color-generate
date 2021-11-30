@@ -1,7 +1,7 @@
 <script setup lang="ts">
   import { ref } from 'vue';
   import { onMounted } from '@vue/runtime-core';
-  import { generate } from 'color-generate';
+  import { generate } from 'color-generator';
   // import { generate } from '../src';
 
   const primaryColor = ref<string>('#099dfd');
@@ -29,7 +29,7 @@
       </template>
     </div>
 
-    <a class="info" target="_blank" href="https://color-generate-docs.sh2.agoralab.co/#/">点击了解更多</a>
+    <a class="info" target="_blank" href="https://color-generator-docs.sh2.agoralab.co/#/">点击了解更多</a>
   </div>
 </template>
 
