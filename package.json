@@ -79,7 +79,6 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "color-generator": "^1.0.9",
     "commander": "^8.3.0",
     "inquirer": "^8.2.0",
     "tinycolor2": "^1.4.2"
