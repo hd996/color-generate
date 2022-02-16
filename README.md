@@ -8,7 +8,7 @@
 
 Referring to [`Ant Design`](https://ant.design/docs/spec/colors-cn), enter a primary color to generate color steps.
 
-<font color="red">Sorry, this library has been suspended for some reason, You can see `src/core.ts` and `src/generate.ts` to use it</font>
+<font color=red>Sorry, this library has been suspended for some reason, You can see [Docs](https://color-generate-docs.sh2.agoralab.co) to use it</font>
 
 ## Documentation
 
