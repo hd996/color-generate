@@ -8,16 +8,22 @@
 
 Referring to [`Ant Design`](https://ant.design/docs/spec/colors-cn), enter a primary color to generate color steps.
 
+<font color="red">Sorry, this library has been suspended for some reason, You can see `src/core.ts` and `src/generate.ts` to use it</font>
+
 ## Documentation
+
 Docs are available at [`here`](https://color-generate-docs.sh2.agoralab.co)
 
 ## Demo
+
 ![Demo](https://web-cdn.agora.io/color-generate/static/show-cli.gif)
 
 ![Demo](https://web-cdn.agora.io/color-generate/static/show.gif)
 
 ## Installation
+
 ### CLI
+
 ```javascript
 # npm
 $ sudo npm install color-generate -g
@@ -27,15 +33,17 @@ $ pnpm add color-generate -g
 ```
 
 ### YARN | NPM | PNPM
+
 ```javascript
-$ yarn add color-generate
+yarn add color-generate
 
-$ npm install color-generate
+npm install color-generate
 
-$ pnpm add color-generate
+pnpm add color-generate
 ```
 
 ### CDN
+
 - **`unpkg`**
   - `https://unpkg.com/color-generate/dist/color-generate.umd.js`
   - `https://unpkg.com/color-generate/dist/color-generate.es.js`
@@ -44,10 +52,10 @@ $ pnpm add color-generate
   - `https://cdn.jsdelivr.net/npm/color-generate/dist/color-generate.umd.js`
   - `https://cdn.jsdelivr.net/npm/color-generate/dist/color-generate.es.js`
 
-
 ## Examples
 
 ### CLI
+
 ```bash
 # help
 $ color-generate -h
@@ -58,12 +66,15 @@ $ color-generate g -c 099dfd
 # generate file Sass/Less
 $ color-generate g -c 099dfd -f
 ```
+
 ### Module
+
 ```javascript
-$ import { generate } from 'color-generate'
+import { generate } from 'color-generate'
 ```
 
 ### Broswer
+
 ```javascript
 <script src="https://cdn.jsdelivr.net/npm/color-generate/dist/color-generate.umd.js"></script>
 
@@ -74,6 +85,7 @@ $ import { generate } from 'color-generate'
 ```
 
 ## Links
+
 - [Documentation](https://color-generate-docs.sh2.agoralab.co/#/)
 - [ChangeLog](https://github.com/Johnson-hd/color-generate/blob/master/CHANGELOG.md)
 - [Ant Design](https://ant.design/docs/spec/colors-cn)
